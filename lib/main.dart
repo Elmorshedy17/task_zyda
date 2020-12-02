@@ -88,15 +88,15 @@ class _MyAppState extends State<MyApp> {
             ],
             home: WillPopScope(
                 onWillPop: () async {
-                  toast.show("I'm Here!");
+                  // toast.show("I'm Here!");
                   if (dialogManager?.isDialogShown ?? false) {
-                    toast.show('1 isDialogShow ${dialogManager.isDialogShown}');
+                    // toast.show('1 isDialogShow ${dialogManager.isDialogShown}');
                     dialogManager.isDialogShown = false;
                     Navigator.of(navigationService.dialogContext).pop();
 
                     return false;
                   } else {
-                    toast.show('2 isDialogShow ${dialogManager.isDialogShown}');
+                    // toast.show('2 isDialogShow ${dialogManager.isDialogShown}');
                     return true;
                   }
                 },
