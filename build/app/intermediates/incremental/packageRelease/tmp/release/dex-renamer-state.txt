@@ -1,0 +1,4 @@
+#Thu Dec 03 00:22:31 EET 2020
+base.0=/Users/mohamednabil/AndroidStudioProjects/monica/coreApp/Task/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

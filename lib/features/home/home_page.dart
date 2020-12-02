@@ -176,7 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
                    height: MediaQuery.of(context).size.height * .4,
 
                    child: ListView.builder(
-                       itemCount: bestValue.length,
+                       itemCount: plus.length,
                        scrollDirection: Axis.horizontal,
                        itemBuilder: (context, i) {
                          return singleProduct(context,plus[i]["img"],

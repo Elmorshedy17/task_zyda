@@ -1,0 +1,8 @@
+# Referenced at /Users/mohamednabil/AndroidStudioProjects/monica/coreApp/Task/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/mohamednabil/AndroidStudioProjects/monica/coreApp/Task/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:22
+-keep class com.example.m1.MainActivity { <init>(); }
+# Referenced at /Users/mohamednabil/AndroidStudioProjects/monica/coreApp/Task/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /Users/mohamednabil/AndroidStudioProjects/monica/coreApp/Task/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:67
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
